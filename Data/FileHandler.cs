@@ -22,10 +22,6 @@ namespace CityLauncher
         public FileInfo UserEngine = new(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "WB Games\\Batman Arkham City GOTY\\BmGame\\Config\\UserEngine.ini"));
         public FileInfo BmInput = new(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "WB Games\\Batman Arkham City GOTY\\BmGame\\Config\\BmInput.ini"));
 
-        private static readonly string ExeChecksumMD5_STEAM = "F18E985B0BE14210C9726C4A4EC8F5ED";
-        private static readonly string ExeChecksumMD5_EPIC = "96830C0F0026C06D548A9F57ADEE8E32";
-        private static readonly string ExeChecksumMD5_GOG = "6E8F9DE533738451F5166427CB378E0F";
-
         private static readonly Logger Nlog = LogManager.GetCurrentClassLogger();
 
 
@@ -194,15 +190,8 @@ namespace CityLauncher
         public static bool DetectGameExe()
         {
             string GameExe = Path.Combine(Directory.GetCurrentDirectory(), "BatmanAC.exe");
-            if (File.Exists(GameExe))
-            {
-                string ExeChecksum = SetMD5(GameExe);
-                if (ExeChecksum == ExeChecksumMD5_STEAM || ExeChecksum == ExeChecksumMD5_EPIC || ExeChecksum == ExeChecksumMD5_GOG)
-                {
-                    return true;
-                }
-            }
-            return false;
+            if (File.Exists(GameExe));
+            return true;
         }
 
         private void CheckIntroVideoFilesRenamed()
