@@ -1,4 +1,16 @@
-# Batman: Arkham City - Advanced Launcher
+# Batman: Arkham City - Advanced LauncherX
+
+**Note: Must run as administrator!**
+
+This version has releases posted on GitHub and has removed the anti-tamper MD5 .exe checksum function. Otherwise, the projects are identical. 
+
+Build dependencies:
+
+- Visual Studio Code (including .NET extensions): https://code.visualstudio.com/docs/languages/dotnet
+- .NET 7.0 SDK: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
+
+Runtime dependencies:
+- .NET 6 Desktop RunTime (usually preinstalled Windows 10): https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
 This is a replacement application for the original BmLauncher.exe of the game. Alongside vastly superior configuration options, this Launcher also offers:
 
@@ -14,21 +26,15 @@ This is a replacement application for the original BmLauncher.exe of the game. A
 - Extensive Logging Functionality (Powered by [NLog](https://github.com/NLog/NLog))
 - ... and more!
 
-Supports the GOTY version on STEAM, GOG and EPIC GAMES.
+Officially supports the GOTY version on STEAM, GOG and EPIC GAMES. Other versions untested. 
 
 **This Application is built with .NET 6**. If you are using Windows 10 and above you shouldn't have any issues simply running the program. Some users might need to install [.NET 6 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) manually.
-
-A standalone, dependency free executable is also available.
 
 ## Preview
 
 ![CityLauncher Preview](https://user-images.githubusercontent.com/49599979/201522680-351ff4fb-92b9-4ce5-8193-f30a68c36d06.png)
 
-## Download
-
-**Download: [Current Release](https://github.com/neatodev/CityLauncher/releases/latest)** or **[visit Nexusmods](https://www.nexusmods.com/batmanarkhamcity/mods/406)**
-
-If you like this application, please consider donating.
+If you like this application, please consider donating (donations go to the original author, neatodev).
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=LG7YTKP4JYN5S)
 
