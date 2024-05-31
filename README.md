@@ -10,7 +10,7 @@ Build dependencies:
 - .NET 7.0 SDK: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
 
 Runtime dependencies:
-- .NET 6 Desktop RunTime (usually preinstalled Windows 10): https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+- .NET 6 Desktop RunTime (usually not preinstalled on Windows 10): https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
 This is a replacement application for the original BmLauncher.exe of the game. Alongside vastly superior configuration options, this Launcher also offers:
 
